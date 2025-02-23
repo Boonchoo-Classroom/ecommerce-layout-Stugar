@@ -8,7 +8,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="สินค้าแนะนำ"
+        android:text="รายการโปรด"
         android:textSize="22sp"
         android:textStyle="bold"
         android:gravity="center"
@@ -46,107 +46,8 @@
                 android:paddingTop="4dp"/>
         </LinearLayout>
     </com.google.android.material.card.MaterialCardView>
-    <com.google.android.material.card.MaterialCardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:cardCornerRadius="16dp"
-        app:cardElevation="8dp"
-        android:layout_marginBottom="16dp"
-        app:strokeWidth="2dp"
-        app:strokeColor="@android:color/darker_gray">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="16dp"
-            android:orientation="vertical">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="สินค้าใหม่"
-                android:textSize="18sp"
-                android:textStyle="bold"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="รายละเอียดสินค้า"
-                android:textSize="14sp"
-                android:paddingTop="4dp"/>
-        </LinearLayout>
-    </com.google.android.material.card.MaterialCardView>
-    <com.google.android.material.card.MaterialCardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:cardCornerRadius="16dp"
-        app:cardElevation="8dp"
-        android:layout_marginBottom="16dp"
-        app:strokeWidth="2dp"
-        app:strokeColor="@android:color/darker_gray">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="16dp"
-            android:orientation="vertical">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="สินค้าใหม่"
-                android:textSize="18sp"
-                android:textStyle="bold"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="รายละเอียดสินค้า"
-                android:textSize="14sp"
-                android:paddingTop="4dp"/>
-        </LinearLayout>
-    </com.google.android.material.card.MaterialCardView>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="โปรโมชั่น"
-        android:textSize="22sp"
-        android:textStyle="bold"
-        android:gravity="center"
-        android:paddingBottom="16dp"/>
-
-
-
-    <com.google.android.material.card.MaterialCardView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:cardCornerRadius="16dp"
-        app:cardElevation="8dp"
-        android:layout_marginBottom="16dp"
-        app:strokeWidth="2dp"
-        app:strokeColor="@android:color/darker_gray">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="16dp"
-            android:orientation="vertical">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="สินค้าใหม่"
-                android:textSize="18sp"
-                android:textStyle="bold"/>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="รายละเอียดสินค้า"
-                android:textSize="14sp"
-                android:paddingTop="4dp"/>
-        </LinearLayout>
-    </com.google.android.material.card.MaterialCardView>
+    <!-- ทำซ้ำอีก 3 อัน -->
     <com.google.android.material.card.MaterialCardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -178,5 +79,46 @@
         </LinearLayout>
     </com.google.android.material.card.MaterialCardView>
 
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="8dp"
+        android:layout_marginBottom="16dp"
+        app:strokeWidth="2dp"
+        app:strokeColor="@android:color/darker_gray">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="สินค้าใหม่"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="รายละเอียดสินค้า"
+                android:textSize="14sp"
+                android:paddingTop="4dp"/>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="8dp"
+        android:layout_marginBottom="16dp"
+        app:strokeWidth="2dp"
+        app:strokeColor="@android:color/darker_gray">
+
+    </com.google.android.material.card.MaterialCardView>
 
 </LinearLayout>

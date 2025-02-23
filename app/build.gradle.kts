@@ -7,6 +7,7 @@ android {
     namespace = "scisrc.mobiledev.ecommercelayout"
     compileSdk = 35
 
+
     defaultConfig {
         applicationId = "scisrc.mobiledev.ecommercelayout"
         minSdk = 24
@@ -50,4 +51,5 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
 }
